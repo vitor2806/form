@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(40, 40, 40);
+}
+
+.container {
+    background-color:rgb(240, 185, 30);
+    color: white;
+    width: 55%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.container, form, fieldset, input {
+    border-radius: 10px;
+}
+
+form {
+    margin: 2%;
+    width: 60%;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+}
