@@ -24,6 +24,7 @@ fieldset, input, button {
 }
 
 input {
+    font-size: 18px;
     padding: 1%;
     color: white;
     height: 20px;
