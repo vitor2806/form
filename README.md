@@ -1,5 +1,5 @@
-## Form Learning
+# Form Learning
 Simple form just for training input types and label positioning.
 
-# Launch
+## Launch
 Open 'index.html' in your browser.
