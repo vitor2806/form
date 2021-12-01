@@ -13,38 +13,26 @@
 <body>
         <form action="">
             <fieldset>
-                <div class="personal-info">
-                    <div class="name-container">
-                        <label for="name">Nome</label><br>
-                        <input type="text" id="name" name="name">
-                    </div> <!--name-container-->
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name">
     
-                    <div class="surname-container">
-                        <label for="surname">Sobrenome</label><br>
-                        <input type="text" id="surname" name="surname">
-                    </div> <!--surname-container-->
+                <label for="surname">Sobrenome</label>
+                <input type="text" id="surname" name="surname">
 
-                    <div class="user-info">
-                        <label for="id">ID</label> <br>
-                        <input type="number" name="id" id="id" pattern="[0-9]{2}" title="Você deve inserir dois digitos dentre 0 e 9." size="2" required> 
-                        <label for="user">Funcionário</label>
-                        <input type="radio" name="user" id="user" value="worker">
-                        <label for="client">Cliente</label>
-                        <input type="radio" name="user" id="client" checked value="client">
-                    </div> <!--user-info-->
-                </div> <!--personal-info-->
+                <label for="id">ID</label>
+                <input type="number" name="id" id="id" pattern="[0-9]{2}" title="Você deve inserir dois digitos dentre 0 e 9." size="2" required> 
+                <label for="user">Funcionário</label>
+                <input type="radio" name="user" id="user" value="worker">
+                <label for="client">Cliente</label>
+                <input type="radio" name="user" id="client" checked value="client">
 
-                <div class="login">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="pass">Senha</label>
-                    <input type="password" name="pass" id="pass" required minlength="4">
-                </div><!--login-->
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="pass">Senha</label>
+                <input type="password" name="pass" id="pass" required minlength="4">
 
-                <div class="finish">
-                    <input type="checkbox" id="terms" name="terms" required>
-                    <label for="terms">Aceitar os termos de uso</label>
-                </div><!--finish-->
+                <input type="checkbox" id="terms" name="terms" required>
+
                 <button type="submit">Enviar</button>
             </fieldset>
         </form>
